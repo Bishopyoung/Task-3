@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)30%,rgba(0,0,0,0.5)20%), url(img/Laptop.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: fit-content;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0.2rem;
+}
+
+.header .menu{
+    font-size: 25px;
+    display: none;
+}
+
+.header nav img{
+    width: 110px;
+}
+.header nav ul{
+    display: flex;
+}
+.header nav li{
+    list-style: none;
+    margin: 0 5px;
+}
+.header nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.2rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    position: relative;
+}
+.header li :hover{
+    color: #fff;
+}
+
+.name{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    float: left;
+    padding-top: 5px;
+    left: 150px;
+    top: 50px;
+    position: absolute;
+}
+
+.header .main{
+    text-align: center;
+}
+
+.header .main h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-bottom: 1.2rem;
+    color: orange;
+   
+
+}
+
+.main .paragraph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: aliceblue;
+    
+}
+
+.main .ctn {
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.main span{
+    color: #ffa500;
+    font-size: 60px;
+}
+
+.main .ctn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.ctn:hover{
+    background: #fff;
+}
+
+.products{
+    max-width: 100%;
+    width: 1200px;
+    margin: 20px  auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background: white;
+    
+}
+
+.service {
+    color: orange;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+   
+}
+
+#join{
+    background:rgb(39, 39, 38);
+    text-align: center;
+    padding: 60px 20px;
+    color: orange;
+
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+
+}
+
+.icons ion-icon:hover{
+    color: orange;
+
+}
+
+.join h2{
+    font-size: 35px;
+
+}
+
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 28px;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.images ul{
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width:240px;
+    margin: 20px 5%;
+    white-space: nowrap;
+}
+
+.images li img{
+    max-width: 100%;
+   
+}
+
+
+@media (max-width:800px) {
+    .header{
+        padding: auto;
+    }
+    .header nav ul{
+       flex-direction: column;
+       position: absolute;
+       top: 20%;
+    }
+
+    img{
+        height: 105px;
+        
+    }
+    .name{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .main{
+        margin-top: 100px;
+        padding: 20px;
+       
+    }
+    .header .main .paragraph{
+        flex-direction: column;
+    }
+    .header .main h1{
+       font-size: 30px;
+       
+    }
+    .header .main span{
+       font-size: 40px;
+    }
+    form input{
+        max-width: 80%;
+    }
+}
+
+
