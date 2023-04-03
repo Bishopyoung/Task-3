@@ -192,10 +192,7 @@ form input{
 .images{
     text-align: center;
     margin: 80px 0;
-}
-
-.images ul{
-    white-space: nowrap;
+    white-space:nowrap;
 }
 
 .images li{
